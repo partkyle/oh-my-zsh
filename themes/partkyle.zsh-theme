@@ -7,4 +7,4 @@ function git_current_branch() {
 
 PROMPT='%{$fg[green]%}%n%{$reset_color%}[%{$fg[yellow]%}%m%{$reset_color%}]:%{$fg[magenta]%}%c%{$reset_color%}%% '
 
-RPROMPT='%{$fg[blue]%}$(git_current_branch)%{$fg[cyan]%}$(rvm_prompt_info)%{$reset_color%}'
+RPROMPT='%{$fg[blue]%}$(git_current_branch)%{$reset_color%}'
